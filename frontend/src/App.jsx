@@ -1,5 +1,5 @@
 import Login from "./pages/Login";
-import Signup from "./pages/SignUp";
+import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Welcome from "./pages/Welcome";
 import Room from "./pages/Room";

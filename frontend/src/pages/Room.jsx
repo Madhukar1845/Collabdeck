@@ -2,7 +2,7 @@ import { socket } from "../services/socket";
 import { useParams } from "react-router-dom";
 import { useState,useEffect } from "react";
 import CanvasStage from "../components/canvas/CanvasStage";
-import Toolbar from "../components/toolbar";
+import Toolbar from "../components/Toolbar";
 function Room(){
     const {roomId}=useParams()
     const [shapes,setShapes]=useState([]);
